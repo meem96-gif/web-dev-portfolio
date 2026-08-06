@@ -1,0 +1,170 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.open-sans-normal{
+    background-color: rgba(67, 13, 13, 0.562);
+}
+
+/* Header */
+.header{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+
+
+/* shared style */
+
+
+.secondary-back{
+    background-color: dimgray;
+
+}
+
+.text-primary{
+    color: #FD6E0A;
+    
+    
+}
+
+
+
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    padding: 14px 25px;
+    border-radius: 3px;
+    border: none;
+}
+
+.section-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(255, 250, 250)
+}
+
+.section-des{
+    font-size: 14px;
+    color: rgb(255, 251, 251);
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    font-weight: 600;
+    font-size: 35px;
+    padding: 15px 90px;
+    color: whitesmoke;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Banners Styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    /* padding: 90px; */
+    text-decoration: rgb(3, 32, 56);
+    padding: 60px 100px;
+    
+}
+
+.bannner-content{
+    max-width: 580px;
+    margin: 0 300px 0 200px;
+    text-decoration: #000000;
+    padding-top: 40px;
+    
+}
+.ban-greet{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.ban-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.banner-description{
+    font-size: 15px;
+    font-weight: normal;
+    max-width: 500px;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    
+    
+    
+}
+
+.ban-prfl-pic{
+    height: 470px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px 10px 0px 20px;
+    
+}
+
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* About */
+
+.about{
+    border-radius: 8px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
