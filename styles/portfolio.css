@@ -39,6 +39,10 @@
     
 }
 
+.cv{
+    color:#FD6E0A
+}
+
 
 
 
@@ -176,6 +180,8 @@ main section{
 .about-items{
     display: flex;
     justify-content: space-around;
+    padding: 50px;
+    box-shadow: 30px black;
 }
 
 
@@ -183,6 +189,7 @@ main section{
 .skills-container{
     display: flex;
     gap:24px;
+    
 
 }
 
@@ -190,4 +197,25 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px black;
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color: rgba(245, 245, 245, 0.66);
+}
+
+.experience-sub-title{
+    font: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
